@@ -55,7 +55,7 @@ public class App {
         dragon.enemyDialogue();
 
         // Weapon Class
-        Weapon common new = Weapon();
+        Weapon common = new Weapon();
             
         common.object = "Axe";
         common.name = "Mjollnir"
@@ -63,7 +63,7 @@ public class App {
         common.rarity = "Common"
         common.description = "A weapon combined with stone and wood to execute enemies."
             
-        Weapon rare new = Weapon();
+        Weapon rare = new Weapon();
         
         rare.object = "Hammer";
         rare.name = "Mjollnir";
@@ -71,7 +71,7 @@ public class App {
         rare.rarity = "Rare";
         Description - "A hammer used mostly to execute major of enemies!";
             
-        Weapon legend new = Weapon();
+        Weapon legend = new Weapon();
         
         legend.object = "Sword";
         legend.name = "Mighty Sword";
