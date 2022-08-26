@@ -53,3 +53,29 @@ public class App {
         dragon.hasMagicImmunity = false;
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
+
+        // Weapon Class
+        Weapon common new = Weapon();
+            
+        common.object = "Axe";
+        common.name = "Mjollnir"
+        common.weight = 4.5;
+        common.rarity = "Common"
+        common.description = "A weapon combined with stone and wood to execute nemesis."
+            
+        Weapon rare new = Weapon();
+        
+        rare.object = "Hammer";
+        rare.name = "Mjollnir";
+        rare.weight = 4.5;
+        rare.rarity = "Rare";
+        Description - "A mighty hammer owned by the god of lightning thor!"
+            
+        Weapon legend new = Weapon();
+        
+        legend.object = "Sword";
+        legend.name = "Mighty Sword";
+        legend.weight = 2;
+        legend.rarity = "Legendary";
+        legend.description = "A mighty sword used mostly to execute masters of enemies";
+        
