@@ -61,7 +61,7 @@ public class App {
         common.name = "Mjollnir"
         common.weight = 4.5;
         common.rarity = "Common"
-        common.description = "A weapon combined with stone and wood to execute nemesis."
+        common.description = "A weapon combined with stone and wood to execute enemies."
             
         Weapon rare new = Weapon();
         
@@ -69,7 +69,7 @@ public class App {
         rare.name = "Mjollnir";
         rare.weight = 4.5;
         rare.rarity = "Rare";
-        Description - "A mighty hammer owned by the god of lightning thor!"
+        Description - "A hammer used mostly to execute major of enemies!";
             
         Weapon legend new = Weapon();
         
@@ -77,5 +77,4 @@ public class App {
         legend.name = "Mighty Sword";
         legend.weight = 2;
         legend.rarity = "Legendary";
-        legend.description = "A mighty sword used mostly to execute masters of enemies";
-        
+        legend.description = "A mighty sword used by the god of war!";
