@@ -2,8 +2,8 @@ public class Weapon {
    // Weapon attributes
   
        String name;
-       double damage;
-       int weight;
+       int damage;
+       double weight;
        String rarity;
        String description;
   
