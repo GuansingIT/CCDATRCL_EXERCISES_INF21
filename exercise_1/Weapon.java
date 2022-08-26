@@ -9,6 +9,6 @@ public class Weapon {
   
   // Weapon method
     public void weaponDescription () {
-      System.out.println("Greetings warrior! This " + name + " can help you to become one of the greatest by contributing its " + damage + " damage!");
+      System.out.println("Greetings warrior! This " +  name + " may boost your strength for it is a " + description + " that can bring you through greatness!");
     }
 }
