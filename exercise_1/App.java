@@ -62,19 +62,22 @@ public class App {
         common.weight = 4.5;
         common.rarity = "Common"
         common.description = "A weapon combined with stone and wood to execute enemies."
+        common.weaponDescription();
             
         Weapon rare = new Weapon();
         
         rare.object = "Hammer";
         rare.name = "Mjollnir";
-        rare.weight = 4.5;
+        rare.weight = 3;
         rare.rarity = "Rare";
-        Description - "A hammer used mostly to execute major of enemies!";
+        rare.description - "A hammer used mostly to execute major of enemies!";
+        rare.weaponDescription();
             
         Weapon legend = new Weapon();
         
         legend.object = "Sword";
         legend.name = "Mighty Sword";
-        legend.weight = 2;
+        legend.weight = 3.5;
         legend.rarity = "Legendary";
         legend.description = "A mighty sword used by the god of war!";
+        legend.weaponDescription();
