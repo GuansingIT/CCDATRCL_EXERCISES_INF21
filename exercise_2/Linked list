@@ -4,6 +4,7 @@ class Main {
     public static void main(String[] args) {
 
         LinkedList<String> myPlaylist = new LinkedList<>();
+        
         ///// My Music PlayLIST //////
         Playlist.add("Young and Inlove");
         Playlist.add("13");
