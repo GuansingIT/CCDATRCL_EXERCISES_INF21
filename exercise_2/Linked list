@@ -20,6 +20,6 @@ class Main {
         Playlist.remove(0);
 
         // Display all songs in Playlist
-        System.out.println("Updated playlist: " + Playlist);
+        System.out.println("Updated playlist: " + myPlaylist);
     }
 }
