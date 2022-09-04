@@ -1,1 +1,24 @@
+import java.util.LinkedList;
 
+class Main {
+    public static void main(String[] args) {
+
+        LinkedList<String> myPlaylist = new LinkedList<>();
+        ///// My Music PlayLIST //////
+        Playlist.add("Young and Inlove");
+        Playlist.add("13");
+        Playlist.add("I still talk to Jesus");
+        Playlist.add("Kahit Kailan");
+        Playlist.add("Mean It");
+
+        Playlist.addFirst("You'll be in my heart");
+        Playlist.addLast("Dito, Sa ilalim ng buwan");
+
+        System.out.println(Playlist.get(0));
+        Playlist.set(6, "Magasin");
+        Playlist.remove(0);
+
+        // Display all songs in Playlist
+        System.out.println("Updated playlist: " + Playlist);
+    }
+}
