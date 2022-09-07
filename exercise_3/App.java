@@ -6,10 +6,10 @@ public class App {
     Stack tshirt_stack = new Stack(5);
 
     // Insert new elements into the stack
-    element_stack.push("Water element");
-    element_stack.push("Fire element");
-    element_stack.push("Air element");
-    element_stack.push("Nature element");
+    element_stack.push("Blue element");
+    element_stack.push("Red element");
+    element_stack.push("Yellow element");
+    element_stack.push("Green element");
 
     // Show the size of the stack
     System.out.println("The size of the stack is: " + tshirt_stack.size());
