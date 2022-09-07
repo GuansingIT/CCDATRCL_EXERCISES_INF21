@@ -11,7 +11,6 @@ class Main {
         myPlaylist.add("I still talk to Jesus");                         // 3rd song
         myPlaylist.add("Kahit Kailan");                                  // 4th song
         myPlaylist.add("Mean It");                                       // 5th song
-
         myPlaylist.addFirst("You'll be in my heart");                    // Additional at the front of the Playlist
         myPlaylist.addLast("Dito, Sa ilalim ng buwan");                  // Additional song at the end of the Playlist
 
