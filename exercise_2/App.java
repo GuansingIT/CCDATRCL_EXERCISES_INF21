@@ -3,37 +3,21 @@ import java.util.LinkedList;
 class Main {
     public static void main(String[] args) {
 
-        // Creates a new Linkedlist Object
-        LinkedList<String> Playlist = new LinkedList<>();
+        LinkedList<String> myPlaylist = new LinkedList<>();
+        
+        ///// My Music PlayLIST //////
+        myPlaylist.add("Young and Inlove");                              // 1st song
+        myPlaylist.add("13");                                            // 2nd song
+        myPlaylist.add("I still talk to Jesus");                         // 3rd song
+        myPlaylist.add("Kahit Kailan");                                  // 4th song
+        myPlaylist.add("Mean It");                                       // 5th song
 
-        // Adds new songs to Playlist
-        Playlist.add("Pare ko");
-        Playlist.add("Overdrive");
-        Playlist.add("Alapaap");
-        Playlist.add("Huling El Bimbo");
-        Playlist.add("Huwag kang Matakot");
+        myPlaylist.addFirst("You'll be in my heart");                    // Additional at the front of the Playlist
+        myPlaylist.addLast("Dito, Sa ilalim ng buwan");                  // Additional song at the end of the Playlist
 
-        // Adds a new song at the front of the Playlist
-        Playlist.addFirst("With a Smile");
-
-        // Adds a new song at the end of the Playlist
-        Playlist.addLast("Fruitcake");
-
-        // Display node at the front in the LinkedList
-        System.out.println(Playlist.get(0));
-
-        // Replace the last song using the set() method
-        Playlist.set(6, "Magasin");
-
-        // Remove the first song using the remove() method
-        Playlist.remove(0);
-
-        // Display all songs in Playlist
-        System.out.println("Updated playlist: " + Playlist);
+        System.out.println(myPlaylist.get(0));                           // Displaying the song at the front using get() and printl() method 
+        myPlaylist.set(6, "Magasin");                                    // Replacing the last song using set() method
+        myPlaylist.remove(1);                                            // Removing the first song using remove() method
+        System.out.println("Updated playlist: " + myPlaylist);           // Displaying all songs in Playlist using the println method 
     }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-P
