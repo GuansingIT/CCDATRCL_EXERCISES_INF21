@@ -1,1 +1,23 @@
+static void Node {
 
+    // Every node has three properties
+    // 1. Key/Data
+    String office;
+
+    // 2. Pointer to the left child
+    Node left;
+
+    // 3. Pointer to the right child
+    Node right;
+
+    // Constructor
+     Node(String office) {
+
+        // Set node data
+        this.office = office;
+
+        // Initialize left and right pointers to NULL.
+        left = null;
+        right = null;
+      }
+}
